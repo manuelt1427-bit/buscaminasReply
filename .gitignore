@@ -1,0 +1,28 @@
+# Dependencias PHP
+/vendor/
+/source/vendor/
+
+# Configuración privada
+.env
+.env.*
+!.env.example
+
+# Archivos de editores y del sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporales y registros
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Caché de herramientas de pruebas
+.phpunit.cache/
+.phpunit.result.cache
+
+# Paquetes generados para descargar el proyecto
+/Buscaminas-local.zip
